@@ -3,6 +3,7 @@
 
 <head>
     <title>Website Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -28,7 +29,7 @@
             <aside>
                 <img src="image.jpg" width="100" alt="Profile Picture">
 
-                <h2>LINK TO SOCIALS:</h2>
+                <h2 id="title">LINK TO SOCIALS:</h2>
                 <p>
                     <a href="https://www.facebook.com/carlayrton.crespo" target="_blank">
                         <img src="fb.png" width="20" alt="Facebook Icon">
@@ -74,32 +75,28 @@
                             Rate the Website:
                             <br><br>
 
-                            <input type="radio" name="rating"> Excellent
-                            <br>
-
-                            <input type="radio" name="rating"> Good
-                            <br>
-
-                            <input type="radio" name="rating"> Fair
-                            <br>
-
-                            <input type="radio" name="rating"> Poor
+                            <label><input type="radio" name="rating" value="excellent"> Excellent</label>
+                            
+                            <label><input type="radio" name="rating" value="good"> Good</label>
+                            
+                            <label><input type="radio" name="rating" value="fair"> Fair</label>
+                            
+                            <label><input type="radio" name="rating" value="poor"> Poor</label>
                         </p>
+
+                        <p>
 
                         <p>
                             Features You Liked:
                             <br><br>
 
-                            <input type="checkbox" name="feature"> Design
-                            <br>
-
-                            <input type="checkbox" name="feature"> Content
-                            <br>
-
-                            <input type="checkbox" name="feature"> Navigation
-                            <br>
-
-                            <input type="checkbox" name="feature"> Media
+                            <label><input type="checkbox" name="feature" value="design"> Design</label>
+                            
+                            <label><input type="checkbox" name="feature" value="content"> Content</label>
+                            
+                            <label><input type="checkbox" name="feature" value="navigation"> Navigation</label>
+                            
+                            <label><input type="checkbox" name="feature" value="media"> Media</label>
                         </p>
 
                         <p>
